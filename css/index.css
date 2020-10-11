@@ -138,6 +138,32 @@ footer {
         width: 28% !important;
     }
 }
+@media screen and (max-height: 800px) {
+    .aboutP {
+        font-size: 3.7vw !important;
+    }
+    .reportsT {
+        font-size: 15vw !important;
+    }
+    .reportsAll {
+        padding-top: 1% !important;
+    }
+    .oneReport {
+        font-size: larger !important;
+    }
+    .fileR {
+        width: 16vw !important;
+    }
+    .teamT {
+        font-size: 15vw !important;
+    }
+    .oneTeam {
+        font-size: 5vw !important;
+    }
+    .photos {
+        width: 22% !important;
+    }
+}
 
 .section {
     height: 100vh;
