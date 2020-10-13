@@ -28,7 +28,8 @@ body {
 }
 
 .logoN {
-    width: 18%;
+    width: 9%;
+    margin-top: -13px;
 }
 
 .row.content {
@@ -52,10 +53,10 @@ footer {
         height: auto;
     }
     .logoF {
-        width: 70vw;
+        width: 70vw !important;
     }
     .logoN {
-        width: 10vw;
+        width: 7vw;
     }
     .navP {
         float: none;
@@ -95,7 +96,7 @@ footer {
         font-size: 17vw !important;
         font-family: sans-serif !important;
     }
-    .reportsAll{
+    .reportsAll {
         display: block !important;
     }
     .oneReport {
@@ -138,25 +139,37 @@ footer {
         width: 28% !important;
     }
 }
-@media screen and (max-width: 550px) {
-            .aboutP {
-                font-size: 3vw !important;
-                font-family: sans-serif !important;
-            }
-            .logoN {
-                width: 14vw;
-            }
-        }
-        
-        @media screen and (max-width: 430px) {
-            .logoN {
-                width: 21vw;
-            }
-            .aboutP {
-                font-size: 4.2vw !important;
-                font-family: sans-serif !important;
-            }
-        }
+
+@media screen and (max-width: 590px) {
+    .aboutP {
+        font-size: 3vw !important;
+        font-family: sans-serif !important;
+    }
+    .logoN {
+        width: 8vw;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .logoN {
+        width: 11vw;
+    }
+    .aboutP {
+        font-size: 4.2vw !important;
+        font-family: sans-serif !important;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .logoN {
+        width: 12vw;
+    }
+    .aboutP {
+        font-size: 4.2vw !important;
+        font-family: sans-serif !important;
+    }
+}
+
 @media screen and (max-height: 800px) {
     .aboutP {
         font-size: 3.7vw !important;
@@ -200,7 +213,8 @@ footer {
 }
 
 .logoF {
-    padding-top: 30vh;
+    padding-top: 16vh;
+    width: 30vw;
 }
 
 .fT {
