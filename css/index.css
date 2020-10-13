@@ -171,18 +171,6 @@ footer {
 }
 
 @media screen and (max-height: 800px) {
-    .reportsT {
-        font-size: 15vw !important;
-    }
-    .reportsAll {
-        padding-top: 1% !important;
-    }
-    .fileR {
-        width: 16vw !important;
-    }
-    .teamT {
-        font-size: 15vw !important;
-    }
 }
 
 .section {
