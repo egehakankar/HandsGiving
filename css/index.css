@@ -177,20 +177,11 @@ footer {
     .reportsAll {
         padding-top: 1% !important;
     }
-    .oneReport {
-        font-size: larger !important;
-    }
     .fileR {
         width: 16vw !important;
     }
     .teamT {
         font-size: 15vw !important;
-    }
-    .oneTeam {
-        font-size: 5vw !important;
-    }
-    .photos {
-        width: 22% !important;
     }
 }
 
