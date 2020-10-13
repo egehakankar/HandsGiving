@@ -1,2 +1,2 @@
-# help.others
+# HandsGiving
 CS491 Bilkent Project Website
