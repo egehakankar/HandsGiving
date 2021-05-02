@@ -45,6 +45,10 @@ footer {
 }
 
 @media screen and (max-width: 767px) {
+    .ovideo {
+        width: 70vw;
+        height: 40vh;
+    }
     .sidenav {
         height: auto;
         padding: 15px;
@@ -109,7 +113,8 @@ footer {
         padding-top: 0% !important;
     }
     .fileR {
-        width: 20vw !important;
+        width: 15vw !important;
+        height: 7vh;
     }
     .goTeamS {
         width: 60% !important;
@@ -136,13 +141,13 @@ footer {
     }
     .photos {
         margin-top: 2% !important;
-        width: 28% !important;
+        width: 15vw !important;
     }
 }
 
 @media screen and (max-width: 590px) {
     .aboutP {
-        font-size: 3vw !important;
+        font-size: 3.9vw !important;
         font-family: sans-serif !important;
     }
     .logoN {
@@ -155,7 +160,7 @@ footer {
         width: 11vw;
     }
     .aboutP {
-        font-size: 4.2vw !important;
+        font-size: 3.6vw !important;
         font-family: sans-serif !important;
     }
 }
@@ -165,13 +170,12 @@ footer {
         width: 12vw;
     }
     .aboutP {
-        font-size: 4.2vw !important;
+        font-size: 3.5vw !important;
         font-family: sans-serif !important;
     }
 }
 
-@media screen and (max-height: 800px) {
-}
+@media screen and (max-height: 800px) {}
 
 .section {
     height: 100vh;
@@ -247,6 +251,24 @@ footer {
 .aboutP {
     font-size: 1.5vw;
     padding: 2% 3%;
+}
+
+.videoPoster {
+    background-color: mediumpurple;
+}
+
+.poster {
+    background-color: darkgreen;
+}
+
+.posterim {
+    height: 60vh;
+    max-width: 70vw;
+}
+
+.ovideo {
+    width: 70vw;
+    height: 60vh;
 }
 
 .goReportsS {
